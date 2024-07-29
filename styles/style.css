@@ -1,152 +1,161 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .navbarItems a {
-  color: black;
-  text-decoration: none;
-  padding: 10px;
-  font-family: "Oswald", sans-serif;
-  font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
 }
 
 .navbarItems .nav-link:not(.active):hover {
-  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .nav-link.active {
-  color: #5b1fa4 !important;
-  border-bottom: 10px solid #793dc2; /* Aquí defines el borde */
-  font-weight: bold;
+    color: #5b1fa4 !important;
+    border-bottom: 10px solid #793dc2; /* Aquí defines el borde */
+    font-weight: bold;
 
-  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .navName {
-  font-size: 2rem !important;
-  font-family: "Oswald", sans-serif;
-  font-weight: bold !important;
+    font-size: 2rem !important;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold !important;
 
-  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .faviconName {
-  height: 2rem; /* Ajusta la altura de la imagen según sea necesario */
-  margin-bottom: 0.6rem;
+    height: 2rem; /* Ajusta la altura de la imagen según sea necesario */
+    margin-bottom: 0.6rem;
 }
 
 .badge {
-  background-color: #1e2be2;
-  color: white;
-  font-size: 1rem;
-  font-weight: bold;
-  padding: 0.5rem;
-  border-radius: 0.5rem;
-  margin-left: 0.5rem;
-  margin-top: 0.5rem;
-  font-family: "Lato";
+    background-color: #1e2be2;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    font-family: "Lato";
 }
 
 .profile {
-  position: relative;
-  height: 75vw;
-  width: 75vw;
-  border-radius: 5vw;
-  margin-top: 5vw;
-  max-height: 40rem;
-  max-width: 40rem;
+    position: relative;
+    height: 75vw;
+    width: 75vw;
+    border-radius: 5vw;
+    margin-top: 5vw;
+    max-height: 40rem;
+    max-width: 40rem;
 }
 .profile .profile-img {
-  height: 80vw;
-  max-height: 45rem;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  border-radius: 10%;
+    height: 80vw;
+    max-height: 45rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10%;
 }
 
 .presentacion1 {
-  font-family: "Oswald", sans-serif;
+    font-family: "Oswald", sans-serif;
 }
 
 .presentacion2 {
-  font-family: "Lato";
+    font-family: "Lato";
 }
 
 .presentacion2 span {
-  background-color: #1e2be2;
-  color: white;
-  font-size: 1.5rem;
-  font-weight: bold;
-  padding: 0.5rem;
-  border-radius: 0.5rem;
-  font-family: "Lato";
+    background-color: #1e2be2;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-family: "Lato";
 }
 
 .btn-primary {
-  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
-  border-color: #e21e80 !important;
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    border-color: #e21e80 !important;
 }
 
 .projects {
-  font-family: "Oswald", sans-serif;
+    font-family: "Oswald", sans-serif;
 }
 
 .imgCard {
-  height: 25vh;
+    height: 25vh;
 }
 
 .projectsCards span {
-  background-color: #661ee2;
-  color: white;
-  font-size: 1.5rem;
-  font-weight: bold;
-  padding: 0.5rem;
-  border-radius: 0.5rem;
-  font-family: "Oswald";
+    background-color: #661ee2;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-family: "Oswald";
 }
 
 .viewMore {
-  font-family: "Oswald", sans-serif;
-  width: 80%;
-  margin-left: 10%;
-  margin-top: 3vw;
-  text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3vw;
+    text-decoration: none;
 }
 
 .buttonHip {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .blogs {
-  font-family: "Oswald", sans-serif;
+    font-family: "Oswald", sans-serif;
 }
 
 .blogCards span {
-  background-color: #3300ff;
-  color: white;
-  font-size: 1.5rem;
-  font-weight: bold;
-  padding: 0.5rem;
-  border-radius: 0.5rem;
-  font-family: "Oswald";
+    background-color: #3300ff;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-family: "Oswald";
 }
 
-.footerIcons {
-  font-size: 2rem;
+footer li a i {
+    font-size: 2em;
+    color: #585b5e;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer li a i:hover {
+    transform: translateY(-15px);
+    color: #661ee2; /* Hace que el color del texto sea transparente para mostrar el degradado */
 }
 
 .education h2 {
-  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
