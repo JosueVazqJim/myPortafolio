@@ -154,8 +154,31 @@ footer li a i:hover {
     color: #661ee2; /* Hace que el color del texto sea transparente para mostrar el degradado */
 }
 
+.techs li i {
+    font-size: 2em;
+    color: #585b5e;
+}
+
+.techs li span {
+    font-size: 1.3em;
+}
+
 .education h2 {
     background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+/* Estilo para los íconos de redes sociales */
+.social-icon {
+    font-size: 2rem; /* Tamaño del icono */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #007bff; /* Color al pasar el ratón (puedes cambiarlo) */
+    transform: scale(1.1); /* Efecto de zoom al pasar el ratón */
 }
