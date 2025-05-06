@@ -1,0 +1,216 @@
+{
+  "title": "Desarrollador de Software - Josué Vázquez",
+  "description": "Desarrollador de Software especializado en backend y sistemas inteligentes de Puebla, México.",
+  "navbar": [
+    {
+      "label": "Inicio",
+      "href": "#top"
+    },
+    {
+      "label": "Experiencia",
+      "href": "#experiencia-laboral"
+    },
+    {
+      "label": "Proyectos",
+      "href": "#proyectos"
+    },
+    {
+      "label": "Sobre mí",
+      "href": "#sobre-mi"
+    },
+    {
+      "label": "Educación",
+      "href": "#educacion"
+    },
+    {
+      "label": "Certificaciones",
+      "href": "#certificaciones"
+    }
+  ],
+  "hero": {
+    "job_availability": "¡Disponible para trabajar!",
+    "title": "¡Hola soy Josué Vázquez!",
+    "job_title": "<strong>Desarrollador de Software especializado en backend y sistemas inteligentes</strong> de Puebla, México.",
+    "description": "Especialista en Spring Boot, Node.js, Django y Java",
+    "cta": "Contactame"
+  },
+  "experience": {
+    "title": "Experiencia laboral",
+    "jobs": {
+      "jobs_title": ["Servicio Social"],
+      "jobs_description": [
+        {
+          "title": "Desarrollador de herramienta OCR",
+          "time": ["Ene 2023"],
+          "description": "Durante mi servicio social desarrollé una herramienta de reconocimiento óptico de caracteres (OCR) utilizando Python. El sistema automatizaba la extracción de texto desde imágenes de documentos, facilitando el procesamiento de archivos académicos. Además, implementé limpieza de datos, detección de errores de lectura y exportación a formatos legibles.",
+          "list": [
+            "Procesamiento de imágenes con OCR",
+            "Extracción y limpieza de datos",
+            "Automatización con Python",
+            "Técnicas de procesamiento de lenguaje natural (NLP)"
+          ]
+        }
+      ]
+    }
+  },
+  "education": {
+    "title": "Educación",
+    "studies": {
+      "studies_title": ["Licenciatura", "Oracle ONE Next Education"],
+      "studies_description": [
+        {
+          "title": "Ingeniería en Tecnologías de la Información",
+          "time": ["Ago 2021"],
+          "description": "Actualmente curso la carrera de Ingeniería en Tecnologías de la Información en la Benemérita Universidad Autónoma de Puebla (BUAP), donde he adquirido conocimientos sólidos en desarrollo web, redes, bases de datos, inteligencia artificial y visión por computadora.",
+          "list": [
+            "Programación orientada a objetos, web y móvil",
+            "Diseño de bases de datos relacionales y no relacionales",
+            "Fundamentos de inteligencia artificial y aprendizaje automático",
+            "Seguridad informática, análisis y monitoreo de redes"
+          ]
+        },
+        {
+          "title": "Especialización Web Backend – Oracle ONE Next Education G7",
+          "time": ["Jul 2024", "Ene 2025"],
+          "description": "Fui seleccionado como estudiante del programa Oracle ONE Next Education, una iniciativa en colaboración con Alura Latam, donde me especialicé en desarrollo web backend como parte del grupo G. Durante este programa reforcé mis habilidades en Java, bases de datos y buenas prácticas en desarrollo ágil.",
+          "list": [
+            "Desarrollo backend con Java y Spring Boot",
+            "Gestión de bases de datos con MySQL y PostgreSQL",
+            "Consumo y diseño de APIs RESTful",
+            "Metodologías ágiles y control de versiones con Git"
+          ]
+        }
+      ]
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "projects": [
+      {
+        "title": "App Web de Trabajo Colaborativo",
+        "description": "Aplicación web desarrollada en equipo con Django que permite a los ciudadanos crear y gestionar propuestas ciudadanas. Los usuarios pueden leer propuestas existentes, crear sus propias versiones basadas en ellas y votar por las mejores. La propuesta más votada se envía a las autoridades pertinentes para su consideración.",
+        "image": "/src/images/projects/proyectos-ciudadanos.jpg",
+        "techs": ["Django", "Python", "HTML", "CSS", "JavaScript", "MariaDB"],
+        "code": "Código",
+        "preview": "Vista previa"
+      },
+      {
+        "title": "Quiosco Digital - Gestión y Seguridad de Usuarios",
+        "description": "Microservicios desarrollados con Spring Boot para gestionar usuarios en un quiosco digital de contenido. Implementa autenticación JWT, asociación a suscripciones, validaciones por tipo de cuenta (cliente, empresa patrocinadora, administrador) y registro de usuarios patrocinados.",
+        "image": "/src/images/projects/micros_quiosco.png",
+        "techs": ["Spring Boot", "Java", "Firebase", "JWT"],
+        "code": "Código",
+        "preview": "Vista previa"
+      },
+      {
+        "title": "Sistema de Soporte de Decisión",
+        "description": "Aplicación de web desarrollada en Python para ayudar en la toma de decisiones basada en árboles de decisión y teoría de la utilidad. Permite evaluar escenarios, asignar pesos, calcular ganancias esperadas y visualizar el mejor curso de acción según criterios definidos. Este sistema de soporte de decisión se hizo con dashboards siguiendo la misión y visión de los médicos nutriólogos, utilizando datos de la gestación de sus pacientes recopilados a través de una app, y aplicando inteligencia de negocios para resolver sus problemas.",
+        "image": "/src/images/projects/bi-system.png",
+        "techs": ["Python", "Plotly", "MariaDB"],
+        "code": "Código",
+        "preview": "Vista previa"
+      }
+    ]
+  },
+  "contributions": {
+    "title": "Contribuciones",
+    "contributions": [
+      {
+        "src": "/src/images/contributions/advanced-periodontics.jpg",
+        "alt": "Sistema de OCR y PLN para soporte clínico",
+        "title": "Sistema de OCR y PLN para Soporte Clínico",
+        "description": "Participé en el desarrollo de un sistema de reconocimiento óptico de caracteres (OCR) aplicado a documentos médicos sobre casos de cáncer de mama. Tras la extracción de texto, diseñé y desarrollé una etapa de procesamiento de lenguaje natural para interpretar los contenidos y generar estructuras JSON compatibles con una base de conocimiento gráfica en Neo4j. Esta base es utilizada por un sistema de soporte de decisión clínica para sugerir posibles tratamientos.",
+        "techs": ["Python", "Tesseract", "Neo4j"],
+        "repo": "#",
+        "repo_label": "Repositorio",
+        "commits": "#"
+      },
+      {
+        "src": "/src/images/contributions/are-we-playing.jpg",
+        "alt": "AreWePlaying? - App web para partidos universitarios",
+        "title": "AreWePlaying? - App Web para Anuncio de Partidos Universitarios",
+        "description": "Colaboré en el desarrollo de *AreWePlaying?*, una aplicación web diseñada para anunciar partidos universitarios, incluyendo detalles sedes, horarios, y más. El sistema permitía a los usuarios crear cuentas, gestionar sus preferencias y mantenerse al tanto de los próximos partidos. Mi enfoque fue principalmente en el frontend, trabajé estrechamente con el backend para tener una integración de calidad.",
+        "techs": ["NextJS", "React", "JavaScript", "TailwindCSS", "NodeJS"],
+        "repo": "#",
+        "repo_label": "Repositorio",
+        "commits": "#"
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre mí",
+    "subtitle": "Estudiante de TI y Desarrollador de Software con enfoque en backend y sistemas inteligentes",
+    "description": "Soy un Desarrollador de Software con más de 2 años de experiencia, especializado en el desarrollo de sistemas backend robustos, diseño de APIs eficientes y la implementación de soluciones inteligentes. He trabajado en la creación de microservicios, aplicaciones colaborativas y sistemas de soporte a decisiones, utilizando tecnologías como Java, Python, Spring Boot y, en algunos proyectos, frameworks como React y Next.js. También tengo experiencia con bases de datos NoSQL como Firebase y grafos de conocimiento en Neo4j. Mi interés por la infraestructura me ha llevado a estudiar redes, auditorías y monitoreo, y suelo aplicar metodologías ágiles como Scrum para gestionar proyectos de forma efectiva. Además, tengo conocimientos en investigación de operaciones, lo que me permite abordar problemas complejos desde un enfoque lógico, analítico y orientado a la optimización. Mi pasión está en diseñar soluciones escalables y eficientes con una visión crítica y técnica del desarrollo de software."
+  },
+  "certifications": {
+    "title": "Certificaciones",
+    "certifications": {
+      "certifications_title": [
+        "Oracle ONE Next Education - Especialización Web Backend",
+        "Scrum CertiProf",
+        "Introducción a R",
+        "Ciberseguridad"
+      ],
+      "certifications_description": [
+        {
+          "title": "Oracle ONE Next Education - Especialización Web Backend",
+          "time": ["Ago 2024"],
+          "description": "Certificación obtenida al completar la especialización en desarrollo web backend con Java y Spring Boot, gestionada por Oracle ONE Next Education.",
+          "list": [
+            "Desarrollo backend con Java y Spring Boot",
+            "Gestión de bases de datos con MySQL",
+            "Consumo y diseño de APIs RESTful"
+          ],
+          "link": "https://app.aluracursos.com/program/certificate/59a62b79-d064-4d4c-8f39-d25e87b74ef4?lang"
+        },
+        {
+          "title": "Scrum CertiProf",
+          "time": ["Mar 2024"],
+          "description": "Certificación obtenida al demostrar conocimientos en la metodología ágil Scrum, otorgada por CertiProf.",
+          "list": [
+            "Principios y valores de Scrum",
+            "Roles y responsabilidades en un equipo Scrum",
+            "Gestión de sprints y planificación ágil"
+          ],
+          "link": "https://www.credly.com/badges/9c528619-542a-4527-8b59-87f67a8f2a70/linked_in_profile"
+        },
+        {
+          "title": "Introducción a R",
+          "time": ["Jun 2024"],
+          "description": "Certificación obtenida al completar el curso de Introducción a R, donde se adquirieron conocimientos básicos sobre análisis de datos y visualización utilizando el lenguaje R.",
+          "list": [
+            "Fundamentos del lenguaje R",
+            "Análisis de datos básicos",
+            "Visualización de datos con ggplot2"
+          ],
+          "link": "https://www.coursera.org/account/accomplishments/verify/8D6AJYXSH96E"
+        },
+        {
+          "title": "Ciberseguridad",
+          "time": ["Ago 2024"],
+          "description": "Certificación obtenida al completar un curso sobre fundamentos de ciberseguridad, incluyendo conceptos clave de protección de datos y gestión de riesgos.",
+          "list": [
+            "Fundamentos de ciberseguridad",
+            "Gestión de riesgos y vulnerabilidades",
+            "Buenas prácticas en protección de datos"
+          ],
+          "link": "https://www.credly.com/badges/1a21804f-2d53-4ecf-8632-508dd820665c/linked_in_profile"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "¿Listo para dar vida a tus ideas?",
+    "subtitle": "Puedo impulsar tu proyecto o formar parte de tu equipo"
+  },
+  "footer": {
+    "designed": {
+      "designed_with": "Diseñado con",
+      "designed_by": "por"
+    },
+    "developed": {
+      "developed_with": "Hecho con",
+      "developed_by": "por"
+    }
+  }
+}
