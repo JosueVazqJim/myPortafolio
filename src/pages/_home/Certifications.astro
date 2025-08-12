@@ -35,18 +35,31 @@ const normalizeTitle = title
     </div>
     <div class="certification-descriptions">
       {
-        certificationDescriptions.map(({ title, time, description, list, link }, index) => (
+        certificationDescriptions.map(({ title, time, description, list, link, look }, index) => (
           <div class:list={['description tabcontent', { active: index === 0 }]}>
             <h3>{title}</h3>
             <div class="certification-time">
-              {time.map((time, index) => (
+              {time.length === 3 ? (
                 <>
-                  <time class="headline-4" datetime={time}>
-                    {time}
+                  <span class="certification-label">{time[0]}:</span>
+                  <time class="headline-4" datetime={time[1]}>
+                    {time[1]}
                   </time>
-                  {index % 2 === 0 && <span>—</span>}
+                  <span>—</span>
+                  <time class="headline-4" datetime={time[2]}>
+                    {time[2]}
+                  </time>
                 </>
-              ))}
+              ) : (
+                time.map((timeItem, timeIndex) => (
+                  <>
+                    <time class="headline-4" datetime={timeItem}>
+                      {timeItem}
+                    </time>
+                    {timeIndex === 0 && time.length > 1 && <span>—</span>}
+                  </>
+                ))
+              )}
               {time.length <= 1 && <span class="badge">Actual</span>}
             </div>
             <p>{description}</p>
@@ -57,7 +70,7 @@ const normalizeTitle = title
             </ul>
             {link && (
               <a href={link} target="_blank" rel="noopener noreferrer" class="certification-link">
-                Ver certificación
+                {look}
               </a>
             )}
           </div>
@@ -194,6 +207,12 @@ const normalizeTitle = title
           display: flex;
           align-items: center;
           gap: 16px;
+
+          & .certification-label {
+            font-weight: 600;
+            color: var(--text-color);
+            font-size: 0.9rem;
+          }
 
           & .badge {
             background-color: var(--bg-secondary-color);

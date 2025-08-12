@@ -38,12 +38,12 @@ const normalizeTitle = title
           <div class:list={['description tabcontent', { active: index === 0 }]}>
             <h3>{title}</h3>
             <div class="school-time">
-              {time.map((time, index) => (
+              {time.map((timeItem, timeIndex) => (
                 <>
-                  <time class="headline-4" datetime={time}>
-                    {time}
+                  <time class="headline-4" datetime={timeItem}>
+                    {timeItem}
                   </time>
-                  {index % 2 === 0 && <span>—</span>}
+                  {timeIndex === 0 && time.length > 1 && <span>—</span>}
                 </>
               ))}
               {time.length <= 1 && <span class="badge">Actual</span>}

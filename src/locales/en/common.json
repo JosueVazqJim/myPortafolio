@@ -41,7 +41,7 @@
       "jobs_description": [
         {
           "title": "OCR Tool Developer",
-          "time": ["Jan 2023"],
+          "time": ["Jan 2023", "Current"],
           "description": "During my social service, I developed an Optical Character Recognition (OCR) tool using Python. The system automated text extraction from document images, streamlining the processing of academic files. Additionally, I implemented data cleaning, reading error detection, and export to readable formats.",
           "list": [
             "Image processing with OCR",
@@ -60,7 +60,7 @@
       "studies_description": [
         {
           "title": "Information Technology Engineering",
-          "time": ["Aug 2021"],
+          "time": ["Aug 2021", "Current"],
           "description": "I am currently pursuing a degree in Information Technology Engineering at the Benemérita Universidad Autónoma de Puebla (BUAP), where I have acquired solid knowledge in web development, networks, databases, artificial intelligence and computer vision.",
           "list": [
             "Object-oriented, web and mobile programming",
@@ -91,24 +91,24 @@
         "description": "Team-developed web application using Django that enables citizens to create and manage civic proposals. Users can review existing proposals, create their own versions based on them, and vote for the best ones. The most voted proposal gets forwarded to relevant authorities for consideration.",
         "image": "/src/images/projects/proyectos-ciudadanos.jpg",
         "techs": ["Django", "Python", "HTML", "CSS", "JavaScript", "MariaDB"],
-        "code": "Code",
-        "preview": "Preview"
+        "code": "https://github.com/BrunoXd27/proyectos_ciudadanos",
+        "preview": "https://github.com/BrunoXd27/proyectos_ciudadanos"
       },
       {
         "title": "Digital Kiosk - User Management and Authentication",
         "description": "Spring Boot microservices for user management in a digital content kiosk. Implements JWT authentication, subscription associations, account-type validations (customer, sponsor company, administrator), and registration of sponsored users.",
         "image": "/src/images/projects/micros_quiosco.png",
         "techs": ["Spring Boot", "Java", "Firebase", "JWT"],
-        "code": "Code",
-        "preview": "Preview"
+        "code": "https://github.com/JosueVazqJim/Microservices-Auth-Users-Quiosco-Digital",
+        "preview": "https://github.com/JosueVazqJim/Microservices-Auth-Users-Quiosco-Digital"
       },
       {
         "title": "Decision Support System",
         "description": "Python web application for decision-making assistance using decision trees and utility theory. Evaluates scenarios, assigns weights, calculates expected gains, and visualizes optimal courses of action based on defined criteria. This decision support system features dashboards aligned with nutritionists' mission and vision, utilizing patient gestation data collected via a mobile app, and applying business intelligence to solve medical challenges.",
         "image": "/src/images/projects/bi-system.png",
         "techs": ["Python", "Plotly", "MariaDB"],
-        "code": "Code",
-        "preview": "Preview"
+        "code": "https://github.com/JosueVazqJim/BI_Seguimiento_Ingesta_Alimenticia",
+        "preview": "https://github.com/JosueVazqJim/BI_Seguimiento_Ingesta_Alimenticia"
       }
     ]
   },
@@ -116,14 +116,14 @@
     "title": "Contributions",
     "contributions": [
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
+        "src": "/src/images/contributions/ocr-npl.png",
         "alt": "OCR and NLP system for clinical support",
         "title": "OCR and NLP System for Clinical Decision Support",
         "description": "Contributed to developing an optical character recognition (OCR) system for processing medical documents related to breast cancer cases. Following text extraction, I designed and implemented a natural language processing (NLP) pipeline to interpret contents and generate JSON structures compatible with a Neo4j graph knowledge base. This database powers a clinical decision support system that suggests potential treatment options.",
         "techs": ["Python", "Tesseract", "Neo4j"],
-        "repo": "#",
+        "repo": "https://github.com/JosueVazqJim/servicio",
         "repo_label": "Repository",
-        "commits": "#"
+        "commits": "https://github.com/JosueVazqJim/servicio"
       },
       {
         "src": "/src/images/contributions/are-we-playing.jpg",
@@ -131,9 +131,9 @@
         "title": "AreWePlaying? - Web App for University Match Announcements",
         "description": "Collaborated on developing *AreWePlaying?*, a web application designed for announcing university sports matches, including venue details, schedules, and other relevant information. The system enabled users to create accounts, manage preferences, and stay updated on upcoming matches. My primary focus was frontend development, working closely with backend teams to ensure high-quality integration.",
         "techs": ["NextJS", "React", "JavaScript", "TailwindCSS", "NodeJS"],
-        "repo": "#",
+        "repo": "https://github.com/Jared-MB/AreWePlaying",
         "repo_label": "Repository",
-        "commits": "#"
+        "commits": "https://github.com/Jared-MB/AreWePlaying"
       }
     ]
   },
@@ -154,46 +154,50 @@
       "certifications_description": [
         {
           "title": "Oracle ONE Next Education - Backend Web Specialization",
-          "time": ["Aug 2024"],
+          "time": ["Validate","Aug 2024", "Current"],
           "description": "Certification earned upon completing the backend web development specialization with Java and Spring Boot, managed by Oracle ONE Next Education.",
           "list": [
             "Backend development with Java and Spring Boot",
             "Database management with MySQL",
             "Consumption and design of RESTful APIs"
           ],
+          "look": "View Certification",
           "link": "https://app.aluracursos.com/program/certificate/59a62b79-d064-4d4c-8f39-d25e87b74ef4?lang"
         },
         {
           "title": "Scrum CertiProf",
-          "time": ["Mar 2023"],
+          "time": ["Validate","Mar 2023", "Current"],
           "description": "Certification obtained by demonstrating knowledge of the Scrum agile methodology, awarded by CertiProf.",
           "list": [
             "Scrum principles and values",
             "Roles and responsibilities in a Scrum team",
             "Sprint management and agile planning"
           ],
+          "look": "View Certification",
           "link": "https://www.credly.com/badges/9c528619-542a-4527-8b59-87f67a8f2a70/linked_in_profile"
         },
         {
           "title": "Introduction to R",
-          "time": ["Apr 2023"],
+          "time": ["Validate","Apr 2023", "Current"],
           "description": "Certification earned upon completing the Introduction to R course, covering basic data analysis and visualization using the R language.",
           "list": [
             "Fundamentals of the R language",
             "Basic data analysis",
             "Data visualization with ggplot2"
           ],
+          "look": "View Certification",
           "link": "https://www.coursera.org/account/accomplishments/verify/8D6AJYXSH96E"
         },
         {
           "title": "Cybersecurity",
-          "time": ["May 2023"],
+          "time": ["Validate", "May 2023", "Current"],
           "description": "Certification earned upon completing a course on cybersecurity fundamentals, including key concepts in data protection and risk management.",
           "list": [
             "Cybersecurity fundamentals",
             "Risk and vulnerability management",
             "Best practices in data protection"
           ],
+          "look": "View Certification",
           "link": "https://www.credly.com/badges/1a21804f-2d53-4ecf-8632-508dd820665c/linked_in_profile"
         }
       ]

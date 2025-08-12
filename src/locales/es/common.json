@@ -41,7 +41,7 @@
       "jobs_description": [
         {
           "title": "Desarrollador de herramienta OCR",
-          "time": ["Ene 2023"],
+          "time": ["Ene 2023", "Actualidad"],
           "description": "Durante mi servicio social desarrollé una herramienta de reconocimiento óptico de caracteres (OCR) utilizando Python. El sistema automatizaba la extracción de texto desde imágenes de documentos, facilitando el procesamiento de archivos académicos. Además, implementé limpieza de datos, detección de errores de lectura y exportación a formatos legibles.",
           "list": [
             "Procesamiento de imágenes con OCR",
@@ -60,7 +60,7 @@
       "studies_description": [
         {
           "title": "Ingeniería en Tecnologías de la Información",
-          "time": ["Ago 2021"],
+          "time": ["Ago 2021", "Actualidad"],
           "description": "Actualmente curso la carrera de Ingeniería en Tecnologías de la Información en la Benemérita Universidad Autónoma de Puebla (BUAP), donde he adquirido conocimientos sólidos en desarrollo web, redes, bases de datos, inteligencia artificial y visión por computadora.",
           "list": [
             "Programación orientada a objetos, web y móvil",
@@ -91,24 +91,24 @@
         "description": "Aplicación web desarrollada en equipo con Django que permite a los ciudadanos crear y gestionar propuestas ciudadanas. Los usuarios pueden leer propuestas existentes, crear sus propias versiones basadas en ellas y votar por las mejores. La propuesta más votada se envía a las autoridades pertinentes para su consideración.",
         "image": "/src/images/projects/proyectos-ciudadanos.jpg",
         "techs": ["Django", "Python", "HTML", "CSS", "JavaScript", "MariaDB"],
-        "code": "Código",
-        "preview": "Vista previa"
+        "code": "https://github.com/BrunoXd27/proyectos_ciudadanos",
+        "preview": "https://github.com/BrunoXd27/proyectos_ciudadanos"
       },
       {
         "title": "Quiosco Digital - Gestión y Seguridad de Usuarios",
         "description": "Microservicios desarrollados con Spring Boot para gestionar usuarios en un quiosco digital de contenido. Implementa autenticación JWT, asociación a suscripciones, validaciones por tipo de cuenta (cliente, empresa patrocinadora, administrador) y registro de usuarios patrocinados.",
         "image": "/src/images/projects/micros_quiosco.png",
         "techs": ["Spring Boot", "Java", "Firebase", "JWT"],
-        "code": "Código",
-        "preview": "Vista previa"
+        "code": "https://github.com/JosueVazqJim/Microservices-Auth-Users-Quiosco-Digital",
+        "preview": "https://github.com/JosueVazqJim/Microservices-Auth-Users-Quiosco-Digital"
       },
       {
         "title": "Sistema de Soporte de Decisión",
         "description": "Aplicación de web desarrollada en Python para ayudar en la toma de decisiones basada en árboles de decisión y teoría de la utilidad. Permite evaluar escenarios, asignar pesos, calcular ganancias esperadas y visualizar el mejor curso de acción según criterios definidos. Este sistema de soporte de decisión se hizo con dashboards siguiendo la misión y visión de los médicos nutriólogos, utilizando datos de la gestación de sus pacientes recopilados a través de una app, y aplicando inteligencia de negocios para resolver sus problemas.",
         "image": "/src/images/projects/bi-system.png",
         "techs": ["Python", "Plotly", "MariaDB"],
-        "code": "Código",
-        "preview": "Vista previa"
+        "code": "https://github.com/JosueVazqJim/BI_Seguimiento_Ingesta_Alimenticia",
+        "preview": "https://github.com/JosueVazqJim/BI_Seguimiento_Ingesta_Alimenticia"
       }
     ]
   },
@@ -116,14 +116,14 @@
     "title": "Contribuciones",
     "contributions": [
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
+        "src": "/src/images/contributions/ocr-npl.png",
         "alt": "Sistema de OCR y PLN para soporte clínico",
         "title": "Sistema de OCR y PLN para Soporte Clínico",
         "description": "Participé en el desarrollo de un sistema de reconocimiento óptico de caracteres (OCR) aplicado a documentos médicos sobre casos de cáncer de mama. Tras la extracción de texto, diseñé y desarrollé una etapa de procesamiento de lenguaje natural para interpretar los contenidos y generar estructuras JSON compatibles con una base de conocimiento gráfica en Neo4j. Esta base es utilizada por un sistema de soporte de decisión clínica para sugerir posibles tratamientos.",
         "techs": ["Python", "Tesseract", "Neo4j"],
-        "repo": "#",
+        "repo": "https://github.com/JosueVazqJim/servicio",
         "repo_label": "Repositorio",
-        "commits": "#"
+        "commits": "https://github.com/JosueVazqJim/servicio"
       },
       {
         "src": "/src/images/contributions/are-we-playing.jpg",
@@ -131,9 +131,9 @@
         "title": "AreWePlaying? - App Web para Anuncio de Partidos Universitarios",
         "description": "Colaboré en el desarrollo de *AreWePlaying?*, una aplicación web diseñada para anunciar partidos universitarios, incluyendo detalles sedes, horarios, y más. El sistema permitía a los usuarios crear cuentas, gestionar sus preferencias y mantenerse al tanto de los próximos partidos. Mi enfoque fue principalmente en el frontend, trabajé estrechamente con el backend para tener una integración de calidad.",
         "techs": ["NextJS", "React", "JavaScript", "TailwindCSS", "NodeJS"],
-        "repo": "#",
+        "repo": "https://github.com/Jared-MB/AreWePlaying",
         "repo_label": "Repositorio",
-        "commits": "#"
+        "commits": "https://github.com/Jared-MB/AreWePlaying"
       }
     ]
   },
@@ -154,46 +154,50 @@
       "certifications_description": [
         {
           "title": "Oracle ONE Next Education - Especialización Web Backend",
-          "time": ["Ago 2024"],
+          "time": ["Validez", "Ago 2024", "Actualidad"],
           "description": "Certificación obtenida al completar la especialización en desarrollo web backend con Java y Spring Boot, gestionada por Oracle ONE Next Education.",
           "list": [
             "Desarrollo backend con Java y Spring Boot",
             "Gestión de bases de datos con MySQL",
             "Consumo y diseño de APIs RESTful"
           ],
+          "look": "Ver Certificación",
           "link": "https://app.aluracursos.com/program/certificate/59a62b79-d064-4d4c-8f39-d25e87b74ef4?lang"
         },
         {
           "title": "Scrum CertiProf",
-          "time": ["Mar 2024"],
+          "time": ["Validez", "Mar 2024", "Actualidad"],
           "description": "Certificación obtenida al demostrar conocimientos en la metodología ágil Scrum, otorgada por CertiProf.",
           "list": [
             "Principios y valores de Scrum",
             "Roles y responsabilidades en un equipo Scrum",
             "Gestión de sprints y planificación ágil"
           ],
+          "look": "Ver Certificación",
           "link": "https://www.credly.com/badges/9c528619-542a-4527-8b59-87f67a8f2a70/linked_in_profile"
         },
         {
           "title": "Introducción a R",
-          "time": ["Jun 2024"],
+          "time": ["Validez", "Jun 2024", "Actualidad"],
           "description": "Certificación obtenida al completar el curso de Introducción a R, donde se adquirieron conocimientos básicos sobre análisis de datos y visualización utilizando el lenguaje R.",
           "list": [
             "Fundamentos del lenguaje R",
             "Análisis de datos básicos",
             "Visualización de datos con ggplot2"
           ],
+          "look": "Ver Certificación",
           "link": "https://www.coursera.org/account/accomplishments/verify/8D6AJYXSH96E"
         },
         {
           "title": "Ciberseguridad",
-          "time": ["Ago 2024"],
+          "time": ["Validez", "Ago 2024", "Actualidad"],
           "description": "Certificación obtenida al completar un curso sobre fundamentos de ciberseguridad, incluyendo conceptos clave de protección de datos y gestión de riesgos.",
           "list": [
             "Fundamentos de ciberseguridad",
             "Gestión de riesgos y vulnerabilidades",
             "Buenas prácticas en protección de datos"
           ],
+          "look": "Ver Certificación",
           "link": "https://www.credly.com/badges/1a21804f-2d53-4ecf-8632-508dd820665c/linked_in_profile"
         }
       ]
