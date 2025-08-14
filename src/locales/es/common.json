@@ -41,7 +41,7 @@
       "jobs_description": [
         {
           "title": "Desarrollador de herramienta OCR",
-          "time": ["Ene 2023", "Actualidad"],
+          "time": ["Ene 2025", "Actualidad"],
           "description": "Durante mi servicio social desarrollé una herramienta de reconocimiento óptico de caracteres (OCR) utilizando Python. El sistema automatizaba la extracción de texto desde imágenes de documentos, facilitando el procesamiento de archivos académicos. Además, implementé limpieza de datos, detección de errores de lectura y exportación a formatos legibles.",
           "list": [
             "Procesamiento de imágenes con OCR",
@@ -205,7 +205,8 @@
   },
   "contact": {
     "title": "¿Listo para dar vida a tus ideas?",
-    "subtitle": "Puedo impulsar tu proyecto o formar parte de tu equipo"
+    "subtitle": "Puedo impulsar tu proyecto o formar parte de tu equipo",
+    "cv_button": "Ver CV"
   },
   "footer": {
     "designed": {

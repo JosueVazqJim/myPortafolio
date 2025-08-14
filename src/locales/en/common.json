@@ -41,7 +41,7 @@
       "jobs_description": [
         {
           "title": "OCR Tool Developer",
-          "time": ["Jan 2023", "Current"],
+          "time": ["Jan 2025", "Current"],
           "description": "During my social service, I developed an Optical Character Recognition (OCR) tool using Python. The system automated text extraction from document images, streamlining the processing of academic files. Additionally, I implemented data cleaning, reading error detection, and export to readable formats.",
           "list": [
             "Image processing with OCR",
@@ -166,7 +166,7 @@
         },
         {
           "title": "Scrum CertiProf",
-          "time": ["Validate","Mar 2023", "Current"],
+          "time": ["Validate","Mar 2024", "Current"],
           "description": "Certification obtained by demonstrating knowledge of the Scrum agile methodology, awarded by CertiProf.",
           "list": [
             "Scrum principles and values",
@@ -178,7 +178,7 @@
         },
         {
           "title": "Introduction to R",
-          "time": ["Validate","Apr 2023", "Current"],
+          "time": ["Validate","Apr 2024", "Current"],
           "description": "Certification earned upon completing the Introduction to R course, covering basic data analysis and visualization using the R language.",
           "list": [
             "Fundamentals of the R language",
@@ -205,7 +205,8 @@
   },
   "contact": {
     "title": "Ready to make your dreams come true?",
-    "subtitle": "I can boost your project or be part of your team"
+    "subtitle": "I can boost your project or be part of your team",
+    "cv_button": "View CV"
   },
   "footer": {
     "designed": {
