@@ -37,17 +37,28 @@
   "experience": {
     "title": "Work Experience",
     "jobs": {
-      "jobs_title": ["Social Service"],
+      "jobs_title": ["Social Service", "Professional Internship"],
       "jobs_description": [
         {
           "title": "OCR Tool Developer",
-          "time": ["Jan 2025", "Current"],
+          "time": ["Jan 2025", "Jul 2025"],
           "description": "During my social service, I developed an Optical Character Recognition (OCR) tool using Python. The system automated text extraction from document images, streamlining the processing of academic files. Additionally, I implemented data cleaning, reading error detection, and export to readable formats.",
           "list": [
             "Image processing with OCR",
             "Data extraction and cleaning",
             "Automation with Python",
             "Natural Language Processing (NLP) techniques"
+          ]
+        },
+        {
+          "title": "Software Developer — RAMA Redes de Valor",
+          "time": ["Jan 2026", "Jul 2026"],
+          "description": "Development of a CRM and quoting system using Laravel, Livewire, and MySQL, including client management, sales, quoting with PDF generation, and installment payment calculations. Integration with external APIs (Banxico, Correos de México, and Meta Lead Ads) and management of hosting infrastructure (cPanel, WHM, SSL certificates).",
+          "list": [
+            "Full-stack development with Laravel and Livewire",
+            "Relational database design (MySQL)",
+            "REST API integration (Banxico, Correos de México, Meta)",
+            "Server administration: cPanel, WHM, SSL"
           ]
         }
       ]
