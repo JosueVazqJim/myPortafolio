@@ -148,10 +148,10 @@
       }
     ]
   },
-  "about": {
+"about": {
     "title": "Sobre mí",
-    "subtitle": "Estudiante de TI y Desarrollador de Software con enfoque en backend y sistemas inteligentes",
-    "description": "Soy un Desarrollador de Software con más de 2 años de experiencia, especializado en el desarrollo de sistemas backend robustos, diseño de APIs eficientes y la implementación de soluciones inteligentes. He trabajado en la creación de microservicios, aplicaciones colaborativas y sistemas de soporte a decisiones, utilizando tecnologías como Java, Python, Spring Boot y, en algunos proyectos, frameworks como React y Next.js. También tengo experiencia con bases de datos NoSQL como Firebase y grafos de conocimiento en Neo4j. Mi interés por la infraestructura me ha llevado a estudiar redes, auditorías y monitoreo, y suelo aplicar metodologías ágiles como Scrum para gestionar proyectos de forma efectiva. Además, tengo conocimientos en investigación de operaciones, lo que me permite abordar problemas complejos desde un enfoque lógico, analítico y orientado a la optimización. Mi pasión está en diseñar soluciones escalables y eficientes con una visión crítica y técnica del desarrollo de software."
+    "subtitle": "Desarrollador de Software especializado en desarrollo full-stack y soluciones de infraestructura",
+    "description": "Soy Desarrollador de Software con más de 2 años de experiencia, especializado en la construcción de sistemas full-stack, integración de APIs externas y administración de infraestructura web. Mi experiencia incluye el desarrollo de sistemas CRM y de cotización con Laravel y Livewire, integraciones de APIs REST (Banxico, Correos de México, Meta) y desarrollo back-end con Java, Python, Spring Boot, así como frameworks de frontend como React y Next.js. Tengo experiencia práctica con bases de datos relacionales y NoSQL, incluyendo MySQL, Firebase y bases de conocimiento de grafos en Neo4j. Mi interés en infraestructura me ha llevado a trabajar en administración de hosting (cPanel, WHM, SSL), redes y sistemas de monitoreo, y aplico regularmente metodologías ágiles como Scrum para una gestión efectiva de proyectos. Con conocimientos adicionales en investigación de operaciones, abordo problemas complejos con pensamiento lógico y analítico enfocado en la optimización. Me apasiona diseñar soluciones escalables y eficientes a través de análisis técnico crítico en el desarrollo de software."
   },
   "certifications": {
     "title": "Certificaciones",
