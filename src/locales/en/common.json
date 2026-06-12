@@ -71,13 +71,13 @@
       "studies_description": [
         {
           "title": "Information Technology Engineering",
-          "time": ["Aug 2021", "Current"],
-          "description": "I am currently pursuing a degree in Information Technology Engineering at the Benemérita Universidad Autónoma de Puebla (BUAP), where I have acquired solid knowledge in web development, networks, databases, artificial intelligence and computer vision.",
+          "time": ["Aug 2021", "Jan 2026"],
+          "description": "I completed a degree in Information Technology Engineering at the Benemérita Universidad Autónoma de Puebla (BUAP), where I gained solid knowledge in web development, networking, databases, artificial intelligence, and computer vision.",
           "list": [
-            "Object-oriented, web and mobile programming",
+            "Object-oriented, web, and mobile programming",
             "Relational and non-relational database design",
             "Fundamentals of artificial intelligence and machine learning",
-            "Computer security, network analysis and monitoring"
+            "Information security, network analysis, and monitoring"
           ]
         },
         {
