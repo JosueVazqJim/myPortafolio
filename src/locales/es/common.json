@@ -37,17 +37,28 @@
   "experience": {
     "title": "Experiencia laboral",
     "jobs": {
-      "jobs_title": ["Servicio Social"],
+      "jobs_title": ["Servicio Social", "Práctica Profesional"],
       "jobs_description": [
         {
           "title": "Desarrollador de herramienta OCR",
-          "time": ["Ene 2025", "Actualidad"],
+          "time": ["Ene 2025", "Jul 2025"],
           "description": "Durante mi servicio social desarrollé una herramienta de reconocimiento óptico de caracteres (OCR) utilizando Python. El sistema automatizaba la extracción de texto desde imágenes de documentos, facilitando el procesamiento de archivos académicos. Además, implementé limpieza de datos, detección de errores de lectura y exportación a formatos legibles.",
           "list": [
             "Procesamiento de imágenes con OCR",
             "Extracción y limpieza de datos",
             "Automatización con Python",
             "Técnicas de procesamiento de lenguaje natural (NLP)"
+          ]
+        },
+        {
+          "title": "Desarrollador de Software — RAMA Redes de Valor",
+          "time": ["Ene 2026", "Jul 2026"],
+          "description": "Desarrollo de un sistema CRM y de cotización empresarial con Laravel, Livewire y MySQL, incluyendo módulos de gestión de clientes, ventas, cotizaciones con generación de PDF y cálculo de pagos a meses sin intereses. Integración de APIs externas (Banxico, Correos de México y Meta Lead Ads) y administración de infraestructura de hosting (cPanel, WHM, certificados SSL).",
+          "list": [
+            "Desarrollo full-stack con Laravel y Livewire",
+            "Diseño de bases de datos relacionales (MySQL)",
+            "Integración de APIs REST (Banxico, Correos de México, Meta)",
+            "Administración de servidores: cPanel, WHM, SSL"
           ]
         }
       ]
