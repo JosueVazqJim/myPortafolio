@@ -37,28 +37,30 @@
   "experience": {
     "title": "Work Experience",
     "jobs": {
-      "jobs_title": ["Social Service", "Professional Internship"],
+      "jobs_title": ["Social Service", "Grupo RAMA"],
       "jobs_description": [
         {
           "title": "OCR Tool Developer",
-          "time": ["Jan 2025", "Jul 2025"],
-          "description": "During my social service, I developed an Optical Character Recognition (OCR) tool using Python. The system automated text extraction from document images, streamlining the processing of academic files. Additionally, I implemented data cleaning, reading error detection, and export to readable formats.",
+          "time": ["Jan 2025", "Sep 2025"],
+          "description": "During my social service, I built a Python pipeline that extracts text from medical videos, covering preprocessing, optical character recognition (OCR) with Tesseract, and structuring of the extracted data. I also implemented natural language processing (NLP) models to classify clinical content, reducing analysis time by more than 40%.",
           "list": [
-            "Image processing with OCR",
-            "Data extraction and cleaning",
+            "Video preprocessing and OCR with Tesseract",
+            "Data extraction and structuring",
             "Automation with Python",
-            "Natural Language Processing (NLP) techniques"
+            "Clinical content classification with NLP"
           ]
         },
         {
-          "title": "Software Developer — RAMA Redes de Valor",
-          "time": ["Jan 2026", "Jul 2026"],
-          "description": "Development of a CRM and quoting system using Laravel, Livewire, and MySQL, including client management, sales, quoting with PDF generation, and installment payment calculations. Integration with external APIs (Banxico, Correos de México, and Meta Lead Ads) and management of hosting infrastructure (cPanel, WHM, SSL certificates).",
+          "title": "Software Developer — Grupo RAMA — Redes de Valor / DingDong",
+          "time": ["Jan 2026", "Present"],
+          "description": "At DingDong Pulso, I develop a real-time andon alert platform (patient–nurse and industrial calls) with Electron, React, Express, and MQTT (Aedes) that connects wireless buttons, nodes, and watches with the staff responding to each call. I designed its cloud architecture to centralize statistics and keep the desktop and mobile apps in sync, and I produced the technical documentation and competitive analysis as part of the project's master plan. I also built a CRM and quoting system with Laravel, Livewire, and MySQL (clients, sales, PDF quotes, and interest-free installment plans), integrating the Banxico, Correos de México, and Meta Lead Ads APIs through webhooks and coordinating requirements with business teams using Scrum. In addition, I manage infrastructure (Linux servers, cPanel/WHM, DNS, corporate email, and SSL certificates), resolve network and user issues, and take part in interviewing and selecting interns.",
           "list": [
-            "Full-stack development with Laravel and Livewire",
-            "Relational database design (MySQL)",
-            "REST API integration (Banxico, Correos de México, Meta)",
-            "Server administration: cPanel, WHM, SSL"
+            "Real-time alert platform with Electron, React, Express, and MQTT",
+            "Cloud architecture to sync desktop and mobile apps",
+            "Full-stack CRM with Laravel, Livewire, and MySQL",
+            "API and webhook integrations (Banxico, Correos de México, Meta Lead Ads)",
+            "Linux server, networking, DNS, cPanel/WHM, and SSL administration",
+            "Requirements management with Scrum"
           ]
         }
       ]

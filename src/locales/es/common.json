@@ -37,28 +37,30 @@
   "experience": {
     "title": "Experiencia laboral",
     "jobs": {
-      "jobs_title": ["Servicio Social", "Práctica Profesional"],
+      "jobs_title": ["Servicio Social", "Grupo RAMA"],
       "jobs_description": [
         {
           "title": "Desarrollador de herramienta OCR",
-          "time": ["Ene 2025", "Jul 2025"],
-          "description": "Durante mi servicio social desarrollé una herramienta de reconocimiento óptico de caracteres (OCR) utilizando Python. El sistema automatizaba la extracción de texto desde imágenes de documentos, facilitando el procesamiento de archivos académicos. Además, implementé limpieza de datos, detección de errores de lectura y exportación a formatos legibles.",
+          "time": ["Ene 2025", "Sep 2025"],
+          "description": "Durante mi servicio social desarrollé un pipeline en Python que extrae texto de videos médicos, con preprocesamiento, reconocimiento óptico de caracteres (OCR) con Tesseract y estructuración de los datos obtenidos. Además, implementé modelos de procesamiento de lenguaje natural (NLP) para clasificar contenido clínico, lo que redujo el tiempo de análisis en más del 40%.",
           "list": [
-            "Procesamiento de imágenes con OCR",
-            "Extracción y limpieza de datos",
+            "Preprocesamiento de video y OCR con Tesseract",
+            "Extracción y estructuración de datos",
             "Automatización con Python",
-            "Técnicas de procesamiento de lenguaje natural (NLP)"
+            "Clasificación de contenido clínico con NLP"
           ]
         },
         {
-          "title": "Desarrollador de Software — RAMA Redes de Valor",
-          "time": ["Ene 2026", "Jul 2026"],
-          "description": "Desarrollo de un sistema CRM y de cotización empresarial con Laravel, Livewire y MySQL, incluyendo módulos de gestión de clientes, ventas, cotizaciones con generación de PDF y cálculo de pagos a meses sin intereses. Integración de APIs externas (Banxico, Correos de México y Meta Lead Ads) y administración de infraestructura de hosting (cPanel, WHM, certificados SSL).",
+          "title": "Desarrollador de Software — Grupo RAMA — Redes de Valor / DingDong",
+          "time": ["Ene 2026", "Actualidad"],
+          "description": "En DingDong Pulso desarrollo la plataforma andon de alertas en tiempo real (llamado paciente–enfermera e industrial) con Electron, React, Express y MQTT (Aedes), que conecta botones, nodos y relojes inalámbricos con el personal que atiende cada llamado. Diseñé su arquitectura cloud para centralizar estadísticas y sincronizar las aplicaciones de escritorio y móviles, y elaboré la documentación técnica y el análisis de competencia dentro del plan maestro del proyecto. También desarrollé un CRM y sistema de cotización con Laravel, Livewire y MySQL (clientes, ventas, cotizaciones con PDF y pagos a meses sin intereses), con integración de APIs de Banxico, Correos de México y Meta Lead Ads mediante webhooks, coordinando los requerimientos con las áreas de negocio bajo Scrum. Además, administro la infraestructura (servidores Linux, cPanel/WHM, DNS, correo corporativo y certificados SSL), resuelvo incidencias de red y de usuarios, y participo en la entrevista y selección de practicantes.",
           "list": [
-            "Desarrollo full-stack con Laravel y Livewire",
-            "Diseño de bases de datos relacionales (MySQL)",
-            "Integración de APIs REST (Banxico, Correos de México, Meta)",
-            "Administración de servidores: cPanel, WHM, SSL"
+            "Plataforma de alertas en tiempo real con Electron, React, Express y MQTT",
+            "Arquitectura cloud para sincronizar aplicaciones de escritorio y móviles",
+            "CRM full-stack con Laravel, Livewire y MySQL",
+            "Integración de APIs y webhooks (Banxico, Correos de México, Meta Lead Ads)",
+            "Administración de servidores Linux, redes, DNS, cPanel/WHM y SSL",
+            "Gestión de requerimientos con Scrum"
           ]
         }
       ]
