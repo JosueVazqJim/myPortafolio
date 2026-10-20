@@ -40,23 +40,21 @@ if (!images[src])
       />
     </a>
   </div>
-  <h3><a href={repo}>{title}</a></h3>
-  <p>
-    {description}
-  </p>
+  <h3>
+    <a href={repo}>{title}</a>
+  </h3>
+  <p>{description}</p>
   <div class="badges">
-    {
-      techs.map((tech) => {
-        const techLower = tech.toLowerCase().replaceAll(' ', '-')
+    {techs.map((tech) => {
+      const techLower = tech.toLowerCase().replaceAll(' ', '-')
 
-        return (
-          <span class={`badge-tech ${techLower}`}>
-            <Icon name={`techs/${techLower}`} size={16} />
-            <span>{tech}</span>
-          </span>
-        )
-      })
-    }
+      return (
+        <span class={`badge-tech ${techLower}`}>
+          <Icon name={`techs/${techLower}`} size={16} />
+          <span>{tech}</span>
+        </span>
+      )
+    })}
   </div>
   <div class="links">
     <a href={repo}>
@@ -136,8 +134,8 @@ if (!images[src])
         padding: 6px 16px;
         border-radius: 1000px;
         border: 1px solid var(--text-color);
-        transition: var(--transition-bg), var(--transition-text),
-          var(--transition-border);
+        transition:
+          var(--transition-bg), var(--transition-text), var(--transition-border);
 
         &:hover {
           background-color: var(--bg-secondary-color);

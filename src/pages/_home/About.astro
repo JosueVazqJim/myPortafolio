@@ -1,11 +1,11 @@
 ---
 import josuevazquez from '@images/josuevazquez.jpg'
 import { Picture } from 'astro:assets'
-import { t } from 'i18n:astro'
+import { useTranslations } from '@data/i18n'
 
-const { title, subtitle, description } = t('about', {
-  returnObjects: true
-})
+const t = useTranslations(Astro.currentLocale)
+
+const { title, subtitle, description } = t('about')
 
 const normalizeTitle = title
   .toLowerCase()

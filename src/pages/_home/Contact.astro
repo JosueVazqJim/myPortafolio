@@ -1,26 +1,24 @@
 ---
 import { Icon } from 'astro-icon/components'
-import { t, getLocale } from 'i18n:astro'
-import Button from '@components/Button.astro'
 import { CV_LINKS } from '@data/constants'
+import { getLocale, useTranslations } from '@data/i18n'
+import Button from '@components/Button.astro'
 
-const { cta } = t('hero', {
-  returnObjects: true
-})
-const contact = t('contact', {
-  returnObjects: true
-}) as any
-const { title, subtitle, cv_button } = contact
+const t = useTranslations(Astro.currentLocale)
 
-const locale = getLocale()
-const cvLink = CV_LINKS[locale] || CV_LINKS.en
+const { cta } = t('hero')
+const { title, subtitle, cv_button } = t('contact')
+
+const cvLink = CV_LINKS[getLocale(Astro.currentLocale)]
 ---
 
 <section class="contact">
   <h2 class="headline-1">{title}</h2>
   <h3 class="headline-2">{subtitle}</h3>
   <div class="buttons-container">
-    <Button class="filled" href="mailto:josuevj.1e.49@gmail.com">{cta}</Button>
+    <Button class="filled" href="mailto:josuevj.1e.49@gmail.com">
+      {cta}
+    </Button>
     <Button href="https://www.linkedin.com/in/josu%C3%A9-v%C3%A1zquez-jim%C3%A9nez-5528881a8/">
       <Icon name="linkedin" size={24} />
       <span>LinkedIn</span>

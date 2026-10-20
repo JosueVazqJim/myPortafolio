@@ -1,23 +1,20 @@
 {
-  "name": "unicorn-sparkle",
+  "name": "my-portafolio",
   "private": true,
-  "description": "Unicorn Sparkle es la plantilla de portafolio definitiva para desarrolladores que quieren brillar.",
+  "description": "Portafolio personal de Josué Vázquez Jiménez, desarrollador de software.",
   "keywords": [
     "portfolio",
-    "astro",
-    "porfolio-template",
-    "astrojs",
-    "astro-template"
+    "astro"
   ],
   "bugs": {
-    "url": "https://github.com/UXCorpRangel/portfolios-dev/issues"
+    "url": "https://github.com/JosueVazqJim/myPortafolio/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/UXCorpRangel/portfolios-dev.git"
+    "url": "https://github.com/JosueVazqJim/myPortafolio.git"
   },
   "license": "MIT",
-  "author": "UXCorpRangel - Felix Icaza <fx.joliett17@gmail.com>",
+  "author": "Josué Vázquez Jiménez (https://github.com/JosueVazqJim)",
   "type": "module",
   "scripts": {
     "astro": "astro",
@@ -28,57 +25,41 @@
     "start": "astro dev"
   },
   "lint-staged": {
-    "./**/*.{js,mjs,cjs}": [
-      "eslint --cache --fix --ext .js,.mjs,.cjs ./",
-      "prettier --cache --write \"./**/*.{js,mjs,cjs}\""
+    "*.{js,mjs,cjs,ts,astro}": [
+      "eslint --cache --fix",
+      "prettier --cache --write"
     ],
-    "./**/*.ts": [
-      "eslint --cache --fix --ext .ts ./",
-      "prettier --cache --write \"./**/*.ts\""
-    ],
-    "./src/**/*.astro": [
-      "eslint --cache --fix --ext .astro ./src/",
-      "prettier --cache --write \"./src/**/*.astro\""
-    ],
-    "./src/**/*.css": "prettier --cache --write \"./src/**/*.css\"",
-    "./**/*.json": "prettier --cache --write \"./**/*.json\"",
-    "./**/*.yml": "prettier --cache --write \"./**/*.yml\""
+    "*.{css,json,yml}": "prettier --cache --write"
   },
   "dependencies": {
-    "@astrojs/check": "0.9.4",
-    "@astrolicious/i18n": "0.6.1",
-    "@fontsource-variable/inter": "5.1.1",
-    "@playform/compress": "0.1.7",
-    "astro": "5.2.3",
-    "astro-compressor": "1.0.0",
-    "astro-icon": "1.1.5",
-    "astro-imagetools": "0.9.0",
-    "astro-seo-schema": "5.0.0",
-    "astro-sitemap": "1.0.0",
-    "astro-tunnel": "0.1.6",
-    "i18next": "24.2.2",
+    "@astrojs/check": "0.9.11",
+    "@astrojs/sitemap": "3.7.4",
+    "@fontsource-variable/inter": "5.3.0",
+    "@playform/compress": "0.2.5",
+    "astro": "7.4.1",
+    "astro-compressor": "1.3.0",
+    "astro-icon": "1.2.0",
+    "astro-seo-schema": "7.0.1",
+    "astro-tunnel": "0.1.9",
     "sanitize.css": "13.0.0",
-    "schema-dts": "1.1.2",
-    "typescript": "5.7.3"
+    "schema-dts": "1.1.5",
+    "typescript": "6.0.3"
   },
   "devDependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "4.4.1",
-    "@typescript-eslint/eslint-plugin": "7.0.1",
-    "@typescript-eslint/parser": "7.0.0",
-    "astro-eslint-parser": "1.2.1",
-    "eslint": "8.57.0",
-    "eslint-config-love": "47.0.0",
-    "eslint-config-prettier": "10.0.1",
-    "eslint-config-standard": "17.1.0",
-    "eslint-plugin-astro": "1.3.1",
-    "eslint-plugin-import": "2.29.1",
-    "eslint-plugin-jsx-a11y": "6.10.2",
-    "eslint-plugin-n": "16.6.2",
-    "eslint-plugin-promise": "6.1.1",
+    "@ianvs/prettier-plugin-sort-imports": "4.7.1",
+    "@typescript-eslint/parser": "8.72.0",
+    "astro-eslint-parser": "3.2.0",
+    "eslint": "10.13.0",
+    "eslint-config-prettier": "10.1.8",
+    "eslint-plugin-astro": "3.2.1",
+    "eslint-plugin-jsx-a11y-x": "0.2.0",
+    "globals": "17.13.0",
     "husky": "9.1.7",
-    "lint-staged": "15.4.3",
-    "prettier": "3.4.2",
-    "prettier-plugin-astro": "0.14.1",
-    "prettier-plugin-tailwindcss": "0.6.6"
+    "lint-staged": "17.6.0",
+    "neostandard": "0.14.1",
+    "prettier": "3.9.10",
+    "prettier-plugin-astro": "1.1.1",
+    "prettier-plugin-tailwindcss": "0.8.1",
+    "typescript-eslint": "8.72.0"
   }
 }

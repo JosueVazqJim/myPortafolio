@@ -1,29 +1,27 @@
 ---
-import { t } from 'i18n:astro'
+import { useTranslations } from '@data/i18n'
 import CardProject from '@components/CardProject.astro'
 
-const { title, projects } = t('projects', {
-  returnObjects: true
-})
+const t = useTranslations(Astro.currentLocale)
+
+const { title, projects } = t('projects')
 ---
 
 <section id={title.toLowerCase()} class="projects">
   <h2>
     <span>{title}</span>
   </h2>
-  {
-    projects.map(({ title, description, image, techs, code, preview }) => (
-      <CardProject
-        src={image}
-        alt={title}
-        title={title}
-        description={description}
-        techs={techs}
-        code={code}
-        preview={preview}
-      />
-    ))
-  }
+  {projects.map(({ title, description, image, techs, code, preview }) => (
+    <CardProject
+      src={image}
+      alt={title}
+      title={title}
+      description={description}
+      techs={techs}
+      code={code}
+      preview={preview}
+    />
+  ))}
 </section>
 
 <style>

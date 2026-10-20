@@ -1,25 +1,35 @@
 ---
-import { t } from 'i18n:astro'
-import { URL } from '@data/constants'
+import josuevazquez from '@images/josuevazquez.jpg'
+import { getImage } from 'astro:assets'
+import { useTranslations } from '@data/i18n'
 import Layout from '@layouts/Layout.astro'
 import About from '@pages/_home/About.astro'
+import Certifications from '@pages/_home/Certifications.astro'
 import Contact from '@pages/_home/Contact.astro'
 import Contributions from '@pages/_home/Contributions.astro'
+import Education from '@pages/_home/Education.astro'
 import Experience from '@pages/_home/Experience.astro'
 import Hero from '@pages/_home/Hero.astro'
 import Projects from '@pages/_home/Projects.astro'
 import OpenGraph from '@components/OpenGraph.astro'
-import Education from '@pages/_home/Education.astro'
-import Certifications from '@pages/_home/Certifications.astro'
+
+const t = useTranslations(Astro.currentLocale)
 
 const options = {
   title: t('common:title'),
   description: t('common:description')
 }
+
+const ogImage = await getImage({
+  src: josuevazquez,
+  format: 'jpg',
+  width: 1200
+})
+const ogImageUrl = new URL(ogImage.src, Astro.site).href
 ---
 
 <Layout options={options}>
-  <OpenGraph information={options} image=`${URL}/og/unicorn-sparkle-og.png` />
+  <OpenGraph information={options} image={ogImageUrl} />
 
   <main>
     <Hero />

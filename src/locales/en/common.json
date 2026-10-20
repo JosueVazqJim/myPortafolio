@@ -165,7 +165,7 @@
       "certifications_description": [
         {
           "title": "Oracle ONE Next Education - Backend Web Specialization",
-          "time": ["Validate","Aug 2024", "Current"],
+          "time": ["Validate", "Aug 2024", "Current"],
           "description": "Certification earned upon completing the backend web development specialization with Java and Spring Boot, managed by Oracle ONE Next Education.",
           "list": [
             "Backend development with Java and Spring Boot",
@@ -177,7 +177,7 @@
         },
         {
           "title": "Scrum CertiProf",
-          "time": ["Validate","Mar 2024", "Current"],
+          "time": ["Validate", "Mar 2024", "Current"],
           "description": "Certification obtained by demonstrating knowledge of the Scrum agile methodology, awarded by CertiProf.",
           "list": [
             "Scrum principles and values",
@@ -189,7 +189,7 @@
         },
         {
           "title": "Introduction to R",
-          "time": ["Validate","Apr 2024", "Current"],
+          "time": ["Validate", "Apr 2024", "Current"],
           "description": "Certification earned upon completing the Introduction to R course, covering basic data analysis and visualization using the R language.",
           "list": [
             "Fundamentals of the R language",
@@ -218,15 +218,5 @@
     "title": "Ready to make your dreams come true?",
     "subtitle": "I can boost your project or be part of your team",
     "cv_button": "View CV"
-  },
-  "footer": {
-    "designed": {
-      "designed_with": "Designed with",
-      "designed_by": "by"
-    },
-    "developed": {
-      "developed_with": "Made with",
-      "developed_by": "by"
-    }
   }
 }

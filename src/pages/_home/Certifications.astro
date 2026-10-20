@@ -1,12 +1,15 @@
 ---
 // filepath: src/pages/_home/Certifications.astro
-import { t } from 'i18n:astro'
+import { useTranslations } from '@data/i18n'
 
-const { title, certifications } = t('certifications', {
-  returnObjects: true
-})
+const t = useTranslations(Astro.currentLocale)
 
-const { certifications_title: certificationTitles, certifications_description: certificationDescriptions } = certifications
+const { title, certifications } = t('certifications')
+
+const {
+  certifications_title: certificationTitles,
+  certifications_description: certificationDescriptions
+} = certifications
 
 const normalizeTitle = title
   .toLowerCase()
@@ -14,28 +17,27 @@ const normalizeTitle = title
   .normalize('NFD')
   .replace(/[\u0300-\u036f]/g, '')
 ---
+
 <section id={normalizeTitle} class="certifications">
   <h2>{title}</h2>
   <section class="certification-list">
     <div class="certification-title">
-      {
-        certificationTitles.map((title, index) => (
-          <button
-            class:list={[
-              'headline-3 tabbutton',
-              {
-                active: index === 0
-              }
-            ]}
-          >
-            {title}
-          </button>
-        ))
-      }
+      {certificationTitles.map((title, index) => (
+        <button
+          class:list={[
+            'headline-3 tabbutton',
+            {
+              active: index === 0
+            }
+          ]}
+        >
+          {title}
+        </button>
+      ))}
     </div>
     <div class="certification-descriptions">
-      {
-        certificationDescriptions.map(({ title, time, description, list, link, look }, index) => (
+      {certificationDescriptions.map(
+        ({ title, time, description, list, link, look }, index) => (
           <div class:list={['description tabcontent', { active: index === 0 }]}>
             <h3>{title}</h3>
             <div class="certification-time">
@@ -69,13 +71,18 @@ const normalizeTitle = title
               ))}
             </ul>
             {link && (
-              <a href={link} target="_blank" rel="noopener noreferrer" class="certification-link">
+              <a
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="certification-link"
+              >
                 {look}
               </a>
             )}
           </div>
-        ))
-      }
+        )
+      )}
     </div>
   </section>
 </section>

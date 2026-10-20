@@ -1,8 +1,8 @@
 ---
-import I18NHead from '@astrolicious/i18n/components/I18nHead.astro'
 import inter from '@fontsource-variable/inter/files/inter-latin-standard-normal.woff2'
 import { Schema } from 'astro-seo-schema'
-import { getHtmlAttrs } from 'i18n:astro'
+import { getAbsoluteLocaleUrl } from 'astro:i18n'
+import { getLocale, LOCALES } from '@data/i18n'
 import Favicons from '@components/Favicons.astro'
 import Footer from '@components/Footer.astro'
 import Navbar from '@components/Navbar.astro'
@@ -24,10 +24,11 @@ interface Props {
 
 const { options } = Astro.props
 const { title, description, metaRobots } = options
+const locale = getLocale(Astro.currentLocale)
 ---
 
 <!doctype html>
-<html class="dark" {...getHtmlAttrs()}>
+<html class="dark" lang={locale} dir="ltr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -121,7 +122,6 @@ const { title, description, metaRobots } = options
         document.documentElement.classList.remove('dark')
       }
     </script>
-
     <slot name="preload" />
 
     <slot name="defer-script" />
@@ -129,29 +129,36 @@ const { title, description, metaRobots } = options
     <meta name="robots" content={metaRobots || 'index, follow'} />
     {description && <meta name="description" content={description} />}
     {description && <link href={Astro.url.href} rel="canonical" />}
-    <I18NHead />
-    <meta name="author" content="Felix Icaza - https://felixicaza.com" />
+    {LOCALES.map((alternate) => (
+      <link
+        rel="alternate"
+        hreflang={alternate}
+        href={getAbsoluteLocaleUrl(alternate)}
+      />
+    ))}
+    <meta
+      name="author"
+      content="Josué Vázquez Jiménez - https://github.com/JosueVazqJim"
+    />
     <meta name="generator" content={Astro.generator} />
 
-    {
-      description && (
-        <Schema
-          item={{
-            '@context': 'https://schema.org',
-            '@type': 'Person',
-            name: 'Josué Vázquez Jiménez',
-            url: 'https://github.com/JosueVazqJim',
-            image: 'https://avatars.githubusercontent.com/u/109026617?v=4',
-            sameAs: [
-              'https://github.com/JosueVazqJim',
-              'https://www.linkedin.com/in/josu%C3%A9-v%C3%A1zquez-jim%C3%A9nez-5528881a8/',
-              'https://github.com/JosueVazqJim'
-            ],
-            jobTitle: 'Desarrollador Backend'
-          }}
-        />
-      )
-    }
+    {description && (
+      <Schema
+        item={{
+          '@context': 'https://schema.org',
+          '@type': 'Person',
+          name: 'Josué Vázquez Jiménez',
+          url: 'https://github.com/JosueVazqJim',
+          image: 'https://avatars.githubusercontent.com/u/109026617?v=4',
+          sameAs: [
+            'https://github.com/JosueVazqJim',
+            'https://www.linkedin.com/in/josu%C3%A9-v%C3%A1zquez-jim%C3%A9nez-5528881a8/',
+            'https://github.com/JosueVazqJim'
+          ],
+          jobTitle: 'Desarrollador Backend'
+        }}
+      />
+    )}
 
     <slot name="schema" />
 

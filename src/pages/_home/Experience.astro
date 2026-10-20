@@ -1,9 +1,9 @@
 ---
-import { t } from 'i18n:astro'
+import { useTranslations } from '@data/i18n'
 
-const { title, jobs } = t('experience', {
-  returnObjects: true
-})
+const t = useTranslations(Astro.currentLocale)
+
+const { title, jobs } = t('experience')
 
 const { jobs_title: jobsTitle, jobs_description: jobsDescription } = jobs
 
@@ -18,46 +18,42 @@ const normalizeTitle = title
   <h2>{title}</h2>
   <section class="jobs">
     <div class="job-title">
-      {
-        jobsTitle.map((title, index) => (
-          <button
-            class:list={[
-              'headline-3 tabbutton',
-              {
-                active: index === 0
-              }
-            ]}
-          >
-            {title}
-          </button>
-        ))
-      }
+      {jobsTitle.map((title, index) => (
+        <button
+          class:list={[
+            'headline-3 tabbutton',
+            {
+              active: index === 0
+            }
+          ]}
+        >
+          {title}
+        </button>
+      ))}
     </div>
     <div class="jobs-descriptions">
-      {
-        jobsDescription.map(({ title, time, description, list }, index) => (
-          <div class:list={['description tabcontent', { active: index === 0 }]}>
-            <h3>{title}</h3>
-            <div class="job-time">
-              {time.map((timeItem, timeIndex) => (
-                <>
-                  <time class="headline-4" datetime={timeItem}>
-                    {timeItem}
-                  </time>
-                  {timeIndex === 0 && time.length > 1 && <span>—</span>}
-                </>
-              ))}
-              {time.length <= 1 && <span class="badge">Actual</span>}
-            </div>
-            <p>{description}</p>
-            <ul>
-              {list.map((item) => (
-                <li>{item}</li>
-              ))}
-            </ul>
+      {jobsDescription.map(({ title, time, description, list }, index) => (
+        <div class:list={['description tabcontent', { active: index === 0 }]}>
+          <h3>{title}</h3>
+          <div class="job-time">
+            {time.map((timeItem, timeIndex) => (
+              <>
+                <time class="headline-4" datetime={timeItem}>
+                  {timeItem}
+                </time>
+                {timeIndex === 0 && time.length > 1 && <span>—</span>}
+              </>
+            ))}
+            {time.length <= 1 && <span class="badge">Actual</span>}
           </div>
-        ))
-      }
+          <p>{description}</p>
+          <ul>
+            {list.map((item) => (
+              <li>{item}</li>
+            ))}
+          </ul>
+        </div>
+      ))}
     </div>
   </section>
 </section>

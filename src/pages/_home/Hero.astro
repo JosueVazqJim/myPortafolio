@@ -1,7 +1,9 @@
 ---
 import { Icon } from 'astro-icon/components'
-import { t } from 'i18n:astro'
+import { useTranslations } from '@data/i18n'
 import Button from '@components/Button.astro'
+
+const t = useTranslations(Astro.currentLocale)
 
 const {
   job_availability: jobAvailability,
@@ -9,9 +11,7 @@ const {
   job_title: jobTitle,
   description,
   cta
-} = t('hero', {
-  returnObjects: true
-})
+} = t('hero')
 ---
 
 <section class="hero">
@@ -26,7 +26,9 @@ const {
       <p>{description}</p>
     </section>
     <section class="button-container">
-      <Button class="filled" href="mailto:josuevj.1e.49@gmail.com">{cta}</Button>
+      <Button class="filled" href="mailto:josuevj.1e.49@gmail.com">
+        {cta}
+      </Button>
       <Button href="https://www.linkedin.com/in/josu%C3%A9-v%C3%A1zquez-jim%C3%A9nez-5528881a8/">
         <Icon name="linkedin" size={24} />
         <span>LinkedIn</span>
@@ -151,5 +153,7 @@ const {
   import { StarField } from '@scripts/starfield'
 
   const canvas = document.querySelector('#stars') as HTMLCanvasElement
+  // El constructor inicia la animación del canvas
+  // eslint-disable-next-line no-new
   new StarField(canvas)
 </script>

@@ -1,10 +1,10 @@
 ---
-import { t } from 'i18n:astro'
+import { useTranslations } from '@data/i18n'
 import CardContributions from '@components/CardContributions.astro'
 
-const { title, contributions } = t('contributions', {
-  returnObjects: true
-})
+const t = useTranslations(Astro.currentLocale)
+
+const { title, contributions } = t('contributions')
 ---
 
 <section class="contributions">
@@ -12,31 +12,29 @@ const { title, contributions } = t('contributions', {
     <span>{title}</span>
   </h2>
   <div class="card-contributions">
-    {
-      contributions.map(
-        ({
-          src,
-          alt,
-          title,
-          description,
-          techs,
-          repo,
-          repo_label: repoLabel,
-          commits
-        }) => (
-          <CardContributions
-            src={src}
-            alt={alt}
-            title={title}
-            description={description}
-            techs={techs}
-            repo={repo}
-            repoLabel={repoLabel}
-            commits={commits}
-          />
-        )
+    {contributions.map(
+      ({
+        src,
+        alt,
+        title,
+        description,
+        techs,
+        repo,
+        repo_label: repoLabel,
+        commits
+      }) => (
+        <CardContributions
+          src={src}
+          alt={alt}
+          title={title}
+          description={description}
+          techs={techs}
+          repo={repo}
+          repoLabel={repoLabel}
+          commits={commits}
+        />
       )
-    }
+    )}
   </div>
 </section>
 

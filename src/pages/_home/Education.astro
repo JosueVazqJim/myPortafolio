@@ -1,11 +1,14 @@
 ---
-import { t } from 'i18n:astro'
+import { useTranslations } from '@data/i18n'
 
-const { title, studies } = t('education', {
-  returnObjects: true
-})
+const t = useTranslations(Astro.currentLocale)
 
-const { studies_title: educationTitle, studies_description: educationDescription } = studies
+const { title, studies } = t('education')
+
+const {
+  studies_title: educationTitle,
+  studies_description: educationDescription
+} = studies
 
 const normalizeTitle = title
   .toLowerCase()
@@ -13,50 +16,47 @@ const normalizeTitle = title
   .normalize('NFD')
   .replace(/[\u0300-\u036f]/g, '')
 ---
+
 <section id={normalizeTitle} class="education">
   <h2>{title}</h2>
   <section class="schools">
     <div class="school-title">
-      {
-        educationTitle.map((title, index) => (
-          <button
-            class:list={[
-              'headline-3 tabbutton',
-              {
-                active: index === 0
-              }
-            ]}
-          >
-            {title}
-          </button>
-        ))
-      }
+      {educationTitle.map((title, index) => (
+        <button
+          class:list={[
+            'headline-3 tabbutton',
+            {
+              active: index === 0
+            }
+          ]}
+        >
+          {title}
+        </button>
+      ))}
     </div>
     <div class="schools-descriptions">
-      {
-        educationDescription.map(({ title, time, description, list }, index) => (
-          <div class:list={['description tabcontent', { active: index === 0 }]}>
-            <h3>{title}</h3>
-            <div class="school-time">
-              {time.map((timeItem, timeIndex) => (
-                <>
-                  <time class="headline-4" datetime={timeItem}>
-                    {timeItem}
-                  </time>
-                  {timeIndex === 0 && time.length > 1 && <span>—</span>}
-                </>
-              ))}
-              {time.length <= 1 && <span class="badge">Actual</span>}
-            </div>
-            <p>{description}</p>
-            <ul>
-              {list.map((item) => (
-                <li>{item}</li>
-              ))}
-            </ul>
+      {educationDescription.map(({ title, time, description, list }, index) => (
+        <div class:list={['description tabcontent', { active: index === 0 }]}>
+          <h3>{title}</h3>
+          <div class="school-time">
+            {time.map((timeItem, timeIndex) => (
+              <>
+                <time class="headline-4" datetime={timeItem}>
+                  {timeItem}
+                </time>
+                {timeIndex === 0 && time.length > 1 && <span>—</span>}
+              </>
+            ))}
+            {time.length <= 1 && <span class="badge">Actual</span>}
           </div>
-        ))
-      }
+          <p>{description}</p>
+          <ul>
+            {list.map((item) => (
+              <li>{item}</li>
+            ))}
+          </ul>
+        </div>
+      ))}
     </div>
   </section>
 </section>
