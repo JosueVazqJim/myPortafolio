@@ -29,10 +29,10 @@
   ],
   "hero": {
     "job_availability": "¡Disponible para trabajar!",
-    "title": "¡Hola soy Josué Vázquez!",
+    "title": "¡Hola, soy Josué Vázquez!",
     "job_title": "<strong>Desarrollador de Software especializado en backend y sistemas inteligentes</strong> de Puebla, México.",
     "description": "Especialista en Spring Boot, Node.js, Django y Java",
-    "cta": "Contactame"
+    "cta": "Contáctame"
   },
   "experience": {
     "title": "Experiencia laboral",
@@ -117,7 +117,7 @@
       },
       {
         "title": "Sistema de Soporte de Decisión",
-        "description": "Aplicación de web desarrollada en Python para ayudar en la toma de decisiones basada en árboles de decisión y teoría de la utilidad. Permite evaluar escenarios, asignar pesos, calcular ganancias esperadas y visualizar el mejor curso de acción según criterios definidos. Este sistema de soporte de decisión se hizo con dashboards siguiendo la misión y visión de los médicos nutriólogos, utilizando datos de la gestación de sus pacientes recopilados a través de una app, y aplicando inteligencia de negocios para resolver sus problemas.",
+        "description": "Aplicación web desarrollada en Python para ayudar en la toma de decisiones basada en árboles de decisión y teoría de la utilidad. Permite evaluar escenarios, asignar pesos, calcular ganancias esperadas y visualizar el mejor curso de acción según criterios definidos. Este sistema de soporte de decisión se hizo con dashboards siguiendo la misión y visión de los médicos nutriólogos, utilizando datos de la gestación de sus pacientes recopilados a través de una app, y aplicando inteligencia de negocios para resolver sus problemas.",
         "image": "/src/images/projects/bi-system.png",
         "techs": ["Python", "Plotly", "MariaDB"],
         "code": "https://github.com/JosueVazqJim/BI_Seguimiento_Ingesta_Alimenticia",
@@ -142,7 +142,7 @@
         "src": "/src/images/contributions/are-we-playing.jpg",
         "alt": "AreWePlaying? - App web para partidos universitarios",
         "title": "AreWePlaying? - App Web para Anuncio de Partidos Universitarios",
-        "description": "Colaboré en el desarrollo de *AreWePlaying?*, una aplicación web diseñada para anunciar partidos universitarios, incluyendo detalles sedes, horarios, y más. El sistema permitía a los usuarios crear cuentas, gestionar sus preferencias y mantenerse al tanto de los próximos partidos. Mi enfoque fue principalmente en el frontend, trabajé estrechamente con el backend para tener una integración de calidad.",
+        "description": "Colaboré en el desarrollo de AreWePlaying?, una aplicación web diseñada para anunciar partidos universitarios, incluyendo detalles de sedes, horarios y más. El sistema permitía a los usuarios crear cuentas, gestionar sus preferencias y mantenerse al tanto de los próximos partidos. Mi enfoque principal fue el frontend, y trabajé estrechamente con el equipo de backend para lograr una integración de calidad.",
         "techs": ["NextJS", "React", "JavaScript", "TailwindCSS", "NodeJS"],
         "repo": "https://github.com/Jared-MB/AreWePlaying",
         "repo_label": "Repositorio",
@@ -153,7 +153,7 @@
   "about": {
     "title": "Sobre mí",
     "subtitle": "Desarrollador de Software especializado en desarrollo full-stack y soluciones de infraestructura",
-    "description": "Soy Desarrollador de Software con experiencia en sistemas en producción, especializado en la construcción de sistemas full-stack, integración de APIs externas y administración de infraestructura web. Mi experiencia incluye el desarrollo de sistemas CRM y de cotización con Laravel y Livewire, integraciones de APIs REST (Banxico, Correos de México, Meta) y desarrollo back-end con Java, Python, Spring Boot, así como frameworks de frontend como React y Next.js. Tengo experiencia práctica con bases de datos relacionales y NoSQL, incluyendo MySQL, Firebase y bases de conocimiento de grafos en Neo4j. Mi interés en infraestructura me ha llevado a trabajar con servidores Linux, administración de hosting (cPanel, WHM, SSL), redes, sistemas de monitoreo y sistemas IoT en tiempo real con MQTT, y aplico regularmente metodologías ágiles como Scrum para una gestión efectiva de proyectos. Con conocimientos adicionales en investigación de operaciones, abordo problemas complejos con pensamiento lógico y analítico enfocado en la optimización. Me apasiona diseñar soluciones escalables y eficientes a través de análisis técnico crítico en el desarrollo de software."
+    "description": "Soy Desarrollador de Software con experiencia en sistemas en producción, especializado en la construcción de sistemas full-stack, integración de APIs externas y administración de infraestructura web. Mi experiencia incluye el desarrollo de sistemas CRM y de cotización con Laravel y Livewire, integraciones de APIs REST (Banxico, Correos de México, Meta) y desarrollo backend con Java, Python y Spring Boot, así como frameworks de frontend como React y Next.js. Tengo experiencia práctica con bases de datos relacionales y NoSQL, incluyendo MySQL, Firebase y bases de conocimiento de grafos en Neo4j. Mi interés en infraestructura me ha llevado a trabajar con servidores Linux, administración de hosting (cPanel, WHM, SSL), redes, sistemas de monitoreo y sistemas IoT en tiempo real con MQTT, y aplico regularmente metodologías ágiles como Scrum para una gestión efectiva de proyectos. Con conocimientos adicionales en investigación de operaciones, abordo problemas complejos con pensamiento lógico y analítico enfocado en la optimización. Me apasiona diseñar soluciones escalables y eficientes a través del análisis técnico crítico en el desarrollo de software."
   },
   "certifications": {
     "title": "Certificaciones",

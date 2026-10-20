@@ -142,7 +142,7 @@
         "src": "/src/images/contributions/are-we-playing.jpg",
         "alt": "AreWePlaying? - Web app for university matches",
         "title": "AreWePlaying? - Web App for University Match Announcements",
-        "description": "Collaborated on developing *AreWePlaying?*, a web application designed for announcing university sports matches, including venue details, schedules, and other relevant information. The system enabled users to create accounts, manage preferences, and stay updated on upcoming matches. My primary focus was frontend development, working closely with backend teams to ensure high-quality integration.",
+        "description": "Collaborated on developing AreWePlaying?, a web application designed for announcing university sports matches, including venue details, schedules, and other relevant information. The system enabled users to create accounts, manage preferences, and stay updated on upcoming matches. My primary focus was frontend development, working closely with backend teams to ensure high-quality integration.",
         "techs": ["NextJS", "React", "JavaScript", "TailwindCSS", "NodeJS"],
         "repo": "https://github.com/Jared-MB/AreWePlaying",
         "repo_label": "Repository",
