@@ -16,6 +16,9 @@
   "license": "MIT",
   "author": "Josué Vázquez Jiménez (https://github.com/JosueVazqJim)",
   "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "astro": "astro",
     "build": "astro check && astro build",
