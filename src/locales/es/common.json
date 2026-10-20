@@ -132,7 +132,7 @@
         "src": "/src/images/contributions/ocr-npl.png",
         "alt": "Sistema de OCR y PLN para soporte clínico",
         "title": "Sistema de OCR y PLN para Soporte Clínico",
-        "description": "Participé en el desarrollo de un sistema de reconocimiento óptico de caracteres (OCR) aplicado a documentos médicos sobre casos de cáncer de mama. Tras la extracción de texto, diseñé y desarrollé una etapa de procesamiento de lenguaje natural para interpretar los contenidos y generar estructuras JSON compatibles con una base de conocimiento gráfica en Neo4j. Esta base es utilizada por un sistema de soporte de decisión clínica para sugerir posibles tratamientos.",
+        "description": "Participé en el desarrollo de un sistema de reconocimiento óptico de caracteres (OCR) aplicado a videos médicos sobre casos de cáncer de mama. Tras la extracción de texto, diseñé y desarrollé una etapa de procesamiento de lenguaje natural para interpretar los contenidos y generar estructuras JSON compatibles con una base de conocimiento gráfica en Neo4j. Esta base es utilizada por un sistema de soporte de decisión clínica para sugerir posibles tratamientos.",
         "techs": ["Python", "Tesseract", "Neo4j"],
         "repo": "https://github.com/JosueVazqJim/servicio",
         "repo_label": "Repositorio",

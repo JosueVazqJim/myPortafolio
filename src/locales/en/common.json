@@ -132,7 +132,7 @@
         "src": "/src/images/contributions/ocr-npl.png",
         "alt": "OCR and NLP system for clinical support",
         "title": "OCR and NLP System for Clinical Decision Support",
-        "description": "Contributed to developing an optical character recognition (OCR) system for processing medical documents related to breast cancer cases. Following text extraction, I designed and implemented a natural language processing (NLP) pipeline to interpret contents and generate JSON structures compatible with a Neo4j graph knowledge base. This database powers a clinical decision support system that suggests potential treatment options.",
+        "description": "Contributed to developing an optical character recognition (OCR) system for processing medical videos related to breast cancer cases. Following text extraction, I designed and implemented a natural language processing (NLP) pipeline to interpret contents and generate JSON structures compatible with a Neo4j graph knowledge base. This database powers a clinical decision support system that suggests potential treatment options.",
         "techs": ["Python", "Tesseract", "Neo4j"],
         "repo": "https://github.com/JosueVazqJim/servicio",
         "repo_label": "Repository",
