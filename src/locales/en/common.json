@@ -158,12 +158,24 @@
     "title": "Certifications",
     "certifications": {
       "certifications_title": [
+        "Claude Code in Action",
         "Oracle ONE Next Education - Backend Web Specialization",
         "Scrum CertiProf",
         "Introduction to R",
         "Cybersecurity"
       ],
       "certifications_description": [
+        {
+          "title": "Claude Code in Action",
+          "time": ["Validate", "2026", "Current"],
+          "description": "Certification awarded by Anthropic covering AI-assisted development and automation with Claude Code.",
+          "list": [
+            "AI-assisted software development",
+            "Automating development tasks with Claude Code"
+          ],
+          "look": "View Certification",
+          "link": "https://verify.skilljar.com/c/4ee7s63hsvqg"
+        },
         {
           "title": "Oracle ONE Next Education - Backend Web Specialization",
           "time": ["Validate", "Aug 2024", "Current"],

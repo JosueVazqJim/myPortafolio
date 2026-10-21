@@ -72,7 +72,7 @@
       "studies_description": [
         {
           "title": "Ingeniería en Tecnologías de la Información",
-          "time": ["Ago 2021", "Actualidad"],
+          "time": ["Ago 2021", "Presente"],
           "description": "Estudiante de Ingeniería en Tecnologías de la Información en la Benemérita Universidad Autónoma de Puebla (BUAP), donde he adquirido conocimientos sólidos en desarrollo web, redes, bases de datos, inteligencia artificial y visión por computadora.",
           "list": [
             "Programación orientada a objetos, web y móvil",
@@ -158,12 +158,24 @@
     "title": "Certificaciones",
     "certifications": {
       "certifications_title": [
+        "Claude Code in Action",
         "Oracle ONE Next Education - Especialización Web Backend",
         "Scrum CertiProf",
         "Introducción a R",
         "Ciberseguridad"
       ],
       "certifications_description": [
+        {
+          "title": "Claude Code in Action",
+          "time": ["Validez", "2026", "Actualidad"],
+          "description": "Certificación otorgada por Anthropic sobre desarrollo y automatización asistidos por IA con Claude Code.",
+          "list": [
+            "Desarrollo de software asistido por IA",
+            "Automatización de tareas de desarrollo con Claude Code"
+          ],
+          "look": "Ver Certificación",
+          "link": "https://verify.skilljar.com/c/4ee7s63hsvqg"
+        },
         {
           "title": "Oracle ONE Next Education - Especialización Web Backend",
           "time": ["Validez", "Ago 2024", "Actualidad"],

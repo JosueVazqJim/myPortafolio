@@ -11,7 +11,7 @@ const { title, contributions } = t('contributions')
   <h2>
     <span>{title}</span>
   </h2>
-  <div class="card-contributions">
+  <div class="contributions-grid">
     {contributions.map(
       ({
         src,
@@ -64,7 +64,7 @@ const { title, contributions } = t('contributions')
       }
     }
 
-    & .card-contributions {
+    & .contributions-grid {
       display: grid;
       align-items: center;
       gap: 36px;
