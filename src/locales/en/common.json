@@ -53,10 +53,9 @@
         {
           "title": "Software Developer — Grupo RAMA — Redes de Valor / DingDong",
           "time": ["Jan 2026", "Present"],
-          "description": "At DingDong Pulso, I develop a real-time andon alert platform (patient–nurse and industrial calls) with Electron, React, Express, and MQTT (Aedes) that connects wireless buttons, nodes, and watches with the staff responding to each call. I designed its cloud architecture to centralize statistics and keep the desktop and mobile apps in sync, and I produced the technical documentation and competitive analysis as part of the project's master plan. I also built a CRM and quoting system with Laravel, Livewire, and MySQL (clients, sales, PDF quotes, and interest-free installment plans), integrating the Banxico, Correos de México, and Meta Lead Ads APIs through webhooks and coordinating requirements with business teams using Scrum. In addition, I manage infrastructure (Linux servers, cPanel/WHM, DNS, corporate email, and SSL certificates), resolve network and user issues, and take part in interviewing and selecting interns.",
+          "description": "At DingDong Pulso, I develop a real-time andon alert platform (patient–nurse and industrial calls) with Electron, React, Express, and MQTT (Aedes) that connects wireless buttons, nodes, and watches with the staff responding to each call. I produced the technical documentation and competitive analysis as part of the project's master plan. I also built a CRM and quoting system with Laravel, Livewire, and MySQL (clients, sales, PDF quotes, and interest-free installment plans), integrating the Banxico, Correos de México, and Meta Lead Ads APIs through webhooks and coordinating requirements with business teams using Scrum. In addition, I manage infrastructure (Linux servers, cPanel/WHM, DNS, corporate email, and SSL certificates), resolve network and user issues, and take part in interviewing and selecting interns.",
           "list": [
             "Real-time alert platform with Electron, React, Express, and MQTT",
-            "Cloud architecture to sync desktop and mobile apps",
             "Full-stack CRM with Laravel, Livewire, and MySQL",
             "API and webhook integrations (Banxico, Correos de México, Meta Lead Ads)",
             "Linux server, networking, DNS, cPanel/WHM, and SSL administration",
