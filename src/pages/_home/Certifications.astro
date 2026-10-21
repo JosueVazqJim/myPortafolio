@@ -126,6 +126,8 @@ const normalizeTitle = title
       display: flex;
       flex-direction: row;
       overflow-x: auto;
+      /* Oculta la barra de desplazamiento; el degradado indica que se puede deslizar */
+      scrollbar-width: none;
       mask: linear-gradient(
         90deg,
         transparent,
@@ -133,6 +135,10 @@ const normalizeTitle = title
         white 70%,
         transparent
       );
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
 
       @media (width >= 768px) {
         flex-direction: column;
